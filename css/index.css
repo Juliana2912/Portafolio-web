@@ -1,0 +1,135 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(124, 163, 197);
+}
+
+.header {
+
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.main {
+    border: 1px solid rgb(0, 0, 0);
+}
+.tabla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.images{
+    border:2px solid #000000;
+    height: 70vh;
+    display: flex;
+    width: 300px;
+
+}
+
+.recuadro h1 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.border{
+    border: 1px solid #000000;
+}
+
+.sobremi {
+    justify-content: space-around;
+    margin: 90px auto;
+    padding: 50px;
+    background-color:rgb(124, 163, 197);
+}
+.sobremi h1{
+    font-size: 20px;
+}
+.sobremi p {
+    font-size: 20;
+}
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 45%;
+    margin: 20px;
+}
+
+.col h2 {
+    margin-top: 0;
+}
+
+.contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intereses {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.intereses span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.menuprincipal {
+    width: 40%;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    list-style: none;
+}
+
+.item1 {
+    list-style: none;
+}
+.estudios {
+    background-color:rgb(124, 163, 197);
+    padding: 50px 20px;
+}
+.contactos {
+    background-color:rgb(124, 163, 197);
+    padding: 50px 20px;
+
+}
+footer{
+    text-align: center;
+}
+.container-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+

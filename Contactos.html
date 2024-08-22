@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <style>
+        body {
+        background-color:rgb(124, 163, 197);
+        }
+        .form {
+        width: 40%;
+        margin:auto;
+        border: 1px solid rgb(66, 65, 67); 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+        .flex{
+        display: flex;
+        flex-direction: columns;
+        }
+        footer{
+        text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>CONTACTOS</b></h1>
+</body>
+<main>
+    <section class="contactos" id="contactos">
+        <p><strong> Hola, soy Juliana..</strong> <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aperiam iste pariatur exercitationem quos cupiditate in, officiis placeat enim, ratione sunt
+                deserunt rerum laudantium, quidem labore perspiciatis? Alias quidem dolorem saepe?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione vitae neque cum, eveniet velit nam
+                vero unde aliquam aliquid, pariatur rem totam asperiores officiis explicabo quam? Consequuntur
+                necessitatibus ea iure?</i></p>
+    </section>
+
+    <section class="border">
+        <form class="form">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <div>
+                    <label for="nombre"> Ingrese tu Nombre</label> <br>
+                    <input id="nombre" type="text" name="nombre" placeholder="Juliana">
+                </div>
+
+                <div>
+                    <label for="apellido"> Ingrese tu Apellido</label> <br>
+                    <input id="apellido" type="text" placeholder="Samboni" required>
+                </div>
+            <div>
+                <label for="fecha"> Fecha de nacimiento </label><br>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <div>
+                <label for="email">Correo Electronico</label> <br>
+            </div>
+            <div>
+                <input id="email" type="email" placeholder="juli@gmail.com" required>
+            </div>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend> Seleccione Genero</legend>
+                <div>
+                    <input type="radio" name="genero" value="Masculino"> Masculino
+                    <input type="radio" name="genero" value="Femenino"> Femenino
+                    <input type="radio" name="genero" value="No sabe"> No sabe
+                </div>
+            </fieldset>
+            
+                <fieldset>
+                    <div>
+                        <legend> Lugar de Recidencia</legend>
+                        <label for="pais"> Seleccione Su Pais</label>
+                        <select name="pais" id="pais">
+                            <option value="Colombia"> Colombia</option>
+                            <option value="Argentina"> Argentina</option>
+                            <option value="Brasil"> Brasil</option>
+                            <option value="España"> España</option>
+                            <option value="Mexico"> Mexico</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ciudad"> Ingrese su ciudad</label> <br>
+                        <input id="ciudad" type="text">
+                </fieldset>
+                    </div>
+            <div>
+                <label for="mensaje"> Escriba su mensaje</label> <br>
+                <textarea name="mensaje" id="mensaje"> Escriba aqui </textarea>
+            </div>
+            <button>ENVIAR</button>
+        </form>
+    </section>
+</main>
+<br>
+<br>
+<br>
+
+<footer>
+    <p>&copy; Juliana Samboni. Todos los derechos reservados</p>
+</footer>
+
+</html>
